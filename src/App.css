@@ -1,0 +1,90 @@
+::before, ::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: darkkhaki;
+
+
+}
+.main{
+ display: flex;
+justify-content: space-evenly;
+ padding: 1rem;
+}
+ .addBtn{
+  cursor: pointer;
+  margin: 12rem;
+  color: blue;
+  font-size: 2rem;
+
+
+ }
+ 
+
+
+.card{
+  background-color: #a3c8d3;
+}
+
+.addBlog{
+  
+ margin-left: 4rem;
+ margin-bottom: 4rem;
+  cursor: pointer;
+
+ 
+
+}
+h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+  color: #333;
+
+}
+.card-title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+a{
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.trash{
+  
+  display: flex;
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #333;
+  align-items: center;
+  justify-content: end;
+  margin-right: 1rem;
+  padding: 1rem;
+  color: #333;
+ 
+}
+.addBtn{
+  margin-left: 2rem;
+}
+.name{
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: rgb(106, 51, 194);
+}
+.email{
+  font-weight: 500;
+  font-size: 1rem;
+  margin-left: 3rem;
+  padding: 1rem;
+  padding-top: 0;
+}

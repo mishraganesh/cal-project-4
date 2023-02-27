@@ -1,0 +1,15 @@
+.page-link{
+    cursor: pointer;
+    margin-top: 5rem;
+    margin-left: 1rem;
+    background-color: #333;
+}
+.card:hover{
+    background-color: #ddd2d2;
+    transition: 0.4s ease-in-out;
+  
+
+}
+.pagination{
+    position: sticky;
+}
