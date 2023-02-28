@@ -17,13 +17,12 @@ export const emailValidation = (email) => {
       return "false"
     }
   }
-  export const userAgeValidation=(age)=>{
-    const ageRegix= /^[1-9]\d{0,1}(\.\d{0})*(,\d+)?$/;
-    if (ageRegix.test(age)){
-        return "true"
-    }
-    else{
-        return "false"
+  export const userPostValidations = (post) => {
+    const userRegix = /^[a-zA-Z0-9]+([_\s/\-]?[a-zA-Z0-9])*$/;
+    if(userRegix.test(post)){
+      return "true"
+    }else {
+      return "false"
     }
   }
   
